@@ -1,0 +1,12 @@
+# Secrets — the only place secrets are allowed (R6), and they never get committed
+.env
+.env.*
+
+# OS / editor cruft
+.DS_Store
+*.swp
+
+# Dependencies / build output (if a topic ever grows code)
+node_modules/
+__pycache__/
+dist/
