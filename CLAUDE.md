@@ -9,7 +9,7 @@ Ongoing work lives in **topics** — one folder per topic under `topics/<slug>/`
 - **Read** a topic's `CLAUDE.md` before working on it — it's the map to that topic's files.
 - **Write** into a topic as you go (decisions, status, findings). Add/remove a file → update that topic's file index.
 - **Create** a topic only for standalone work with ongoing state: `mkdir topics/<slug>/`, give it a `CLAUDE.md`, add a line below. Default is to extend an existing topic, not spin up a new one.
-- **Sweep** with `/update` before wrapping up a working session — it captures the session's decisions, findings, and status changes into the right files and fixes anything now stale or contradictory. This is what keeps the workspace from rotting at scale.
+- **Sweep** with `/update` before wrapping up a working session — it captures the session's decisions, findings, and status changes into the right files and fixes anything now stale or contradictory. This is what keeps the workspace from rotting at scale. Simplest habit: end every session with `/wrap` — it runs the sweep only if something is uncaptured, then closes the session.
 - **Track** multi-session work with `/task` — one living spec file per task in `tasks/` (stage, plan, decision log), staged Backlog → Spec → In Progress → Code Review → Testing → Done.
 
 ## About
